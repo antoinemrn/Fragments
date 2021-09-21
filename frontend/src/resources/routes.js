@@ -5,7 +5,7 @@ import {IoDocumentOutline} from 'react-icons/io5';
 export const routes = [
     {
         'path' : 'taskList',
-        'name' : 'Task List',
+        'name' : 'Fragments',
         'icon' : <IoDocumentOutline/>
     },
     {

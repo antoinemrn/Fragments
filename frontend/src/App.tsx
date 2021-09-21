@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import NavMenu from "./components/NavMenu";
 import { BrowserRouter, Route } from "react-router-dom";
-import AllTasks from "./screens/AllTasks";
+import AllFragments from "./screens/AllFragments";
 import Header from "./components/Header";
 
 const App = () => {
@@ -16,7 +16,7 @@ const App = () => {
           <Header></Header>
           <Content>
             <Route path="/taskList">
-              <AllTasks></AllTasks>
+              <AllFragments></AllFragments>
             </Route>
           </Content>
         </Body>
